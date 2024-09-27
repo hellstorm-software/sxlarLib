@@ -2,6 +2,7 @@
 //
 //
 //    Script to for vertically scrolling text from the "scrolling-text" div on page load
+//    Demo of code in use: https://hellstorm-software.github.io/theGrid/
 //
 //    Example HTML:
 //        <div class="preloader">

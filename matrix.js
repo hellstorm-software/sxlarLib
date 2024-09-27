@@ -4,7 +4,7 @@
 //    Creates red and purple matrix falling text in a canvas with the id of "CMatrix"
 //
 //    Example HTML:
-//      <canvas width="500" height="500" id="canv" style="display: none; margin-top: -100px;"></canvas>
+//      <canvas width="500" height="500" id="CMatrix"></canvas>
 //
 // ##############################################################################################################################
 

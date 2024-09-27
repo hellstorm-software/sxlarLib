@@ -1,4 +1,14 @@
-const canvas = document.getElementById('canv');
+// ##############################################################################################################################
+//
+//
+//    Creates red and purple matrix falling text in a canvas with the id of "CMatrix"
+//
+//    Example HTML:
+//      <canvas width="500" height="500" id="canv" style="display: none; margin-top: -100px;"></canvas>
+//
+// ##############################################################################################################################
+
+const canvas = document.getElementById('CMatrix');
 const ctx = canvas.getContext('2d');
 
 const w = canvas.width = document.body.offsetWidth;

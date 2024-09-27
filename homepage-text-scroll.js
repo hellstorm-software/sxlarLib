@@ -1,8 +1,30 @@
+// ##############################################################################################################################
+//
+//
+//    Script to for vertically scrolling text from the "scrolling-text" div on page load
+//
+//    Example HTML:
+//        <div class="preloader">
+//            <div class="scrolling-text-container">
+//                <div class="scrolling-text">
+//                    <p> text that will scroll past </p>
+//                    <p> text that will scroll past </p>
+//                    <p> text that will scroll past </p>
+//                </div>
+//            </div>
+//        </div>
+//        
+//        <div class="main-content">
+//            <p> your main website </p>
+//        </div>
+//
+// ##############################################################################################################################
+
 document.addEventListener("DOMContentLoaded", function() {
     setTimeout(function() {
         document.querySelector(".preloader").style.display = "none";
         document.querySelector(".main-content").style.display = "block";
-    }, 24); // Adjust the timeout duration as needed
+    }, 2100); // Adjust the timeout duration as needed
 
     function updateTime() {
         const now = new Date();
@@ -13,7 +35,7 @@ document.addEventListener("DOMContentLoaded", function() {
         document.getElementById('current-time').textContent = formattedTime;
     }
 
-    setInterval(updateTime, 1000);
+    setInterval(updateTime, 45);
     updateTime();
 
     document.addEventListener('mousemove', function(event) {
@@ -22,4 +44,6 @@ document.addEventListener("DOMContentLoaded", function() {
         document.getElementById('cursor-position').textContent = `${x} / ${y}`;
     });
 });
+
+
 

@@ -1,3 +1,5 @@
+::downloads the best available mp4 of a youtube video or playlist
+
 @echo off
 :: replace "videoLocation" with the path to your video
 cd "C:\videoLocation"

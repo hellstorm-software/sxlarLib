@@ -1,4 +1,7 @@
 # sxlarLib
+Most of the stuff below this is old and outdated (it still works its just discontinued), this repo is now just a public lib for things like our Minecraft namespace list.
+
+--------------------------
 a library of all of our public scripts
 <br><br>
 <span style="font-size: 14px;"><b>DIRECTORY:</b></span><br>
